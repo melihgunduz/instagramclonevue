@@ -26,7 +26,6 @@
         omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
         voluptatem!
       </p>
-      <h1>H11111111111111111111</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
         doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
