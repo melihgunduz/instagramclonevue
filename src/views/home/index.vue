@@ -50,18 +50,6 @@
         omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
         voluptatem!
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
     </div>
     <div class="sidebar">
       <p>
