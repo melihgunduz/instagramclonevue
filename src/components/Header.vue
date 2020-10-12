@@ -6,8 +6,6 @@
         Instagram
       </router-link>
 
-
-
       <!-- Search -->
       <form class="search">
         <input type="text" placeholder="Search" />
@@ -27,7 +25,9 @@
           <FillIconExplore v-if="$route.name === 'Explore'" />
           <IconExplore v-else />
         </router-link>
-        <router-link to="/profile">Profile</router-link>
+        <router-link to="/profile">
+          <Avatar size="26px" />
+        </router-link>
       </nav>
     </Container>
   </header>
@@ -43,9 +43,11 @@ import IconExplore from '@/icons/explore.svg'
 import FillIconExplore from '@/icons/explore-fill.svg'
 
 import Container from '@/components/Container'
+import Avatar from '@/components/avatar'
 export default {
   name: 'MainHeader',
   components: {
+    Avatar,
     IconHome,
     FillIconHome,
     Container,
@@ -58,7 +60,6 @@ export default {
 </script>
 
 <style scoped>
-
 .header {
   background-color: white;
   z-index: 90;

@@ -1,63 +1,10 @@
 <template>
   <div class="home">
     <div class="timeline">
-      <IconHome width="60" height="60" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
+      <h1>Home</h1>
+      <Avatar :size="40"/>
     </div>
     <div class="sidebar">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
-        doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
-        omnis optio placeat porro quasi recusandae reprehenderit tenetur vitae
-        voluptatem!
-      </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa,
         doloremque ducimus ea eligendi hic incidunt ipsum minus neque obcaecati
@@ -69,11 +16,11 @@
 </template>
 
 <script>
-import IconHome from '@/icons/home.svg'
+import Avatar from '@/components/avatar'
 export default {
   name: 'Home',
   components: {
-    IconHome
+    Avatar
   }
 }
 </script>
